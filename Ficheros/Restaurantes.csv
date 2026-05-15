@@ -1,0 +1,106 @@
+nombre_ciudad,habitantes,nombre_restaurante,capacidad_restaurante,nombre_plato,precio_plato
+Nueva York,8622698,Le Bernardin,120,Langosta a la parrilla,45.0
+Nueva York,8622698,Le Bernardin,120,Atún crudo,55.0
+Nueva York,8622698,Le Bernardin,120,Salmón marinado,50.0
+Nueva York,8622698,Per Se,80,Risotto de trufa negra,75.0
+Nueva York,8622698,Per Se,80,Steak Tartare,90.0
+Nueva York,8622698,Per Se,80,Ensalada de remolacha,60.0
+Nueva York,8622698,Gramercy Tavern,100,Pollo asado,30.0
+Nueva York,8622698,Gramercy Tavern,100,Bife de costilla,40.0
+Nueva York,8622698,Gramercy Tavern,100,Tarta de manzana,20.0
+Los Ángeles,3990456,Providence,60,Calamar crujiente,35.0
+Los Ángeles,3990456,Providence,60,Atún aleta azul,50.0
+Los Ángeles,3990456,Providence,60,Sopa de cangrejo,45.0
+Los Ángeles,3990456,Spago,80,Lasaña de carne,40.0
+Los Ángeles,3990456,Spago,80,Salmón a la parrilla,45.0
+Los Ángeles,3990456,Spago,80,Pizza de champiñones,30.0
+Los Ángeles,3990456,The Bazaar by José Andrés,90,Paella,60.0
+Los Ángeles,3990456,The Bazaar by José Andrés,90,Ceviche,35.0
+Los Ángeles,3990456,The Bazaar by José Andrés,90,Tapas,25.0
+Chicago,2705994,Alinea,80,Tortellini de maíz,65.0
+Chicago,2705994,Alinea,80,Ensalada de remolacha,50.0
+Chicago,2705994,Alinea,80,Helado de albahaca,40.0
+Chicago,2705994,Giordano's,100,Pizza de queso profundo,20.0
+Chicago,2705994,Giordano's,100,Spaghetti a la bolognesa,25.0
+Chicago,2705994,Giordano's,100,Lasaña,30.0
+Chicago,2705994,The Purple Pig,70,Tablita de embutidos,35.0
+Chicago,2705994,The Purple Pig,70,Sándwich de cerdo,25.0
+Chicago,2705994,The Purple Pig,70,Pimientos de padrón,20.0
+San Francisco,883305,Tadich Grill,90,Sopa de almejas,40.0
+San Francisco,883305,Tadich Grill,90,Cangrejo de río,55.0
+San Francisco,883305,Tadich Grill,90,Filete de salmón,50.0
+San Francisco,883305,House of Prime Rib,80,Filete de costilla,60.0
+San Francisco,883305,House of Prime Rib,80,Papas asadas,30.0
+San Francisco,883305,House of Prime Rib,80,Ensalada César,25.0
+San Francisco,883305,La Mar Cebichería Peruana,100,Ceviche mixto,45.0
+San Francisco,883305,La Mar Cebichería Peruana,100,Lomo saltado,35.0
+San Francisco,883305,La Mar Cebichería Peruana,100,Tiradito,40.0
+Miami,470914,Joe's Stone Crab,120,Almejas al vapor,50.0
+Miami,470914,Joe's Stone Crab,120,Cangrejo de concha blanda,70.0
+Miami,470914,Joe's Stone Crab,120,Langosta caliente,80.0
+Miami,470914,Yardbird Southern Table & Bar,70,Pechuga de pollo frita,35.0
+Miami,470914,Yardbird Southern Table & Bar,70,Torta de pollo,30.0
+Miami,470914,Yardbird Southern Table & Bar,70,Macarrones con queso,25.0
+Miami,470914,Zuma,100,Sushi variado,55.0
+Miami,470914,Zuma,100,Sashimi de salmón,45.0
+Miami,470914,Zuma,100,Tepanyaki de carne,60.0
+Washington D.C.,693972,Rasika,80,Pollo al curry,40.0
+Washington D.C.,693972,Rasika,80,Tikka masala,45.0
+Washington D.C.,693972,Rasika,80,Samosas,30.0
+Washington D.C.,693972,Ben's Chili Bowl,120,Perros calientes chili,20.0
+Washington D.C.,693972,Ben's Chili Bowl,120,Chili con carne,25.0
+Washington D.C.,693972,Ben's Chili Bowl,120,Cheesesteak,30.0
+Washington D.C.,693972,The Capital Grille,90,Bife de costilla,70.0
+Washington D.C.,693972,The Capital Grille,90,Langosta a la parrilla,85.0
+Washington D.C.,693972,The Capital Grille,90,Ensalada de espinacas,40.0
+Seattle,744955,Canlis,100,Salmón a la parrilla,50.0
+Seattle,744955,Canlis,100,Filete de ternera,60.0
+Seattle,744955,Canlis,100,Ensalada César,35.0
+Seattle,744955,Pike Place Chowder,80,Sopa de almejas,20.0
+Seattle,744955,Pike Place Chowder,80,Sándwich de cangrejo,25.0
+Seattle,744955,Pike Place Chowder,80,Panini de salmón,30.0
+Seattle,744955,Space Needle,120,Langosta a la parrilla,70.0
+Seattle,744955,Space Needle,120,Sushi variado,55.0
+Seattle,744955,Space Needle,120,Tarta de queso,40.0
+Madrid,3266126,Restaurante Botín,150,Cochinillo asado,45.0
+Madrid,3266126,Restaurante Botín,150,Sopa de ajo,20.0
+Madrid,3266126,Casa Lucio,100,Huevos rotos,15.0
+Madrid,3266126,Casa Lucio,100,Rabo de toro,30.0
+Madrid,3266126,El Club Allard,80,Ravioli de buey,40.0
+Madrid,3266126,El Club Allard,80,Merluza en salsa verde,35.0
+Barcelona,1620343,Disfrutar,60,Espardeñas,50.0
+Barcelona,1620343,Disfrutar,60,Pollo a la brasa,40.0
+Barcelona,1620343,El Celler de Can Roca,120,Carpaccio de gambas,55.0
+Barcelona,1620343,El Celler de Can Roca,120,Canelón de pato,45.0
+Barcelona,1620343,ABaC Restaurant,80,Cordero lechal,65.0
+Barcelona,1620343,ABaC Restaurant,80,Cremoso de foie,35.0
+Valencia,814208,Ricard Camarena Restaurant,70,Arroz meloso,40.0
+Valencia,814208,Ricard Camarena Restaurant,70,Coca de sardinas,25.0
+Valencia,814208,Quique Dacosta Restaurante,100,Gazpacho de cerezas,55.0
+Valencia,814208,Quique Dacosta Restaurante,100,Carpaccio de vieiras,45.0
+Valencia,814208,La Salita,50,Secreto ibérico,30.0
+Valencia,814208,La Salita,50,Sopa de espárragos,20.0
+Sevilla,688711,Abantal,60,Salmorejo,25.0
+Sevilla,688711,Abantal,60,Choco en adobo,35.0
+Sevilla,688711,Aponiente,80,Caviar de erizo,60.0
+Sevilla,688711,Aponiente,80,Pescado a la sal,50.0
+Sevilla,688711,La Azotea,40,Carrillada ibérica,30.0
+Sevilla,688711,La Azotea,40,Ensaladilla rusa,20.0
+Zaragoza,674317,La Prensa,50,Ternasco de Aragón,35.0
+Zaragoza,674317,La Prensa,50,Trenza de bacalao,25.0
+Zaragoza,674317,La Granada,80,Cordero asado,45.0
+Zaragoza,674317,La Granada,80,Ensalada templada de foie,30.0
+Zaragoza,674317,Los Cabezudos,60,Bacalao al pil pil,40.0
+Zaragoza,674317,Los Cabezudos,60,Tarta de Santiago,20.0
+Málaga,571026,El Pimpi,100,Ensalada malagueña,25.0
+Málaga,571026,El Pimpi,100,Boquerones fritos,20.0
+Málaga,571026,Kalycanto,80,Secreto ibérico,40.0
+Málaga,571026,Kalycanto,80,Atún a la plancha,35.0
+Málaga,571026,El Tintero,120,Fritura de pescado,30.0
+Málaga,571026,El Tintero,120,Paella,45.0
+Murcia,447182,El Churra,60,Gazpacho murciano,20.0
+Murcia,447182,El Churra,60,Caldero,35.0
+Murcia,447182,Rincón de Pepe,80,Arroz caldoso,30.0
+Murcia,447182,Rincón de Pepe,80,Bacalao al horno,40.0
+Murcia,447182,La Barra de los XII,50,Ensalada murciana,15.0
+Murcia,447182,La Barra de los XII,50,Calamares a la romana,25.0

@@ -1,0 +1,10 @@
+Juan,Pérez,8,9,10,5,4,2;
+María,Gómez,5,4,3,2;
+Carlos,Rodríguez,7,10,9,3,4,10,1;
+Laura,Fernández,10,0;
+Daniel,Martínez,5,6,8,9;
+Sofía,Ruíz,10,7,4,3;
+Miguel,García,10,1,2;
+Isabel,López,8,5,6,7;
+Alejandro,Díaz,4,3,7;
+Ana,Ramírez,2,9,1
