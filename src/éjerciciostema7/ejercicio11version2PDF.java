@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.HashMap;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -15,7 +16,7 @@ public class ejercicio11version2PDF {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		int opcion = -1;
-		Parking parking = new Parking();
+		Parking2 parking = new Parking2();
 
 		do {
 			System.out.println("---MENU---");
@@ -46,7 +47,7 @@ public class ejercicio11version2PDF {
 				}else {
 					System.out.println("Introduce la matricula del coche");
 					String matricula = teclado.nextLine();
-					if (parking.getCoche().containsKey(matricula)) {
+					if (parking.buscarCoche(matricula) != null) {
 						System.out.println("El coche esta añadido");
 					}else {
 						try {
@@ -57,9 +58,10 @@ public class ejercicio11version2PDF {
 						if(hora < 0 || hora > 23) {
 							System.out.println("Hora incorrecta");
 						}else {
-							parking.getCoche().put(matricula, hora);
+							Coche coche = new Coche(matricula, hora);
+							parking.getCoche().add(coche);
 							parking.setCapacidadParking(parking.getCapacidadParking() -1);
-							escribirMapaEnfichero(parking.getCoche());
+							escribirListaenelFichero(parking.getCoche());
 							System.out.println("Añadido correctamente");
 						}
 						}catch (InputMismatchException e) {
@@ -80,10 +82,11 @@ public class ejercicio11version2PDF {
 				}else {
 					System.out.println("Introduce la matricula del coche");
 					String matricula = teclado.nextLine();
-				if(parking.getCoche().containsKey(matricula)) {
-					parking.getCoche().remove(matricula);
+					Coche cocheBuscar = parking.buscarCoche(matricula);
+				if(cocheBuscar != null) {
+					parking.getCoche().remove(cocheBuscar);
 					parking.setCapacidadParking(parking.getCapacidadParking() +1);
-					escribirMapaEnfichero(parking.getCoche());
+					escribirListaenelFichero(parking.getCoche());
 					System.out.println("Coche eliminado perfectamente");
 				}else {
 					System.out.println("No existe coche con esa matricula");
@@ -127,6 +130,19 @@ public class ejercicio11version2PDF {
 
 		    return coches;
 		}
+	public static void escribirListaenelFichero(List<Coche> coches) {
+		
+		try(FileWriter fw = new FileWriter("Ficheros//parking.txt",false); BufferedWriter bw = new BufferedWriter(fw)) {
+
+			for(Coche c : coches) {
+				bw.write(c.getMatricula() + ";" + c.getHoraLLegada());
+				bw.newLine();
+			}
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
 	public static void escribirMapaEnfichero(Map<String, Integer> coche) {
 		try(FileWriter fw = new FileWriter("Ficheros//parking.txt",false); BufferedWriter bw = new BufferedWriter(fw)){
 			for(Entry<String, Integer> entrada : coche.entrySet()) {

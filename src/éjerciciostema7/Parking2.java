@@ -5,29 +5,30 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Parking {
-	private Map<String, Integer> coches ;
+public class Parking2 {
+
+	private List<Coche> coches ;
 	private int capacidadParking = 10;
-	public Parking() {
+	public Parking2() {
 		super();
-		this.coches = new HashMap<String, Integer>();
+		this.coches = new ArrayList<Coche>();
 		}
-	/*public Coche buscarCoche(String matricula) {
+	public Coche buscarCoche(String matricula) {
 		for(Coche c : coches) {
 			if(c.getMatricula().equals(matricula)) {
 				return c ;
 			}
 		}
 		return null;
-	}*/
+	}
 	
-	public Map<String, Integer> getCoche() {
+	public List<Coche> getCoche() {
 		return coches;
 	}
-	public void setCoche(Map<String, Integer> coche) {
+	public void setCoche(List<Coche> coche) {
 		this.coches = coche;
 	}
-	public void getCoche(Map<String, Integer> coche) {
+	public void getCoche(List<Coche> coche) {
 		this.coches = coche;
 	}
 	public int getCapacidadParking() {
@@ -44,5 +45,3 @@ public class Parking {
 	
 	
 }
-
-
