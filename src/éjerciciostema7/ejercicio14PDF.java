@@ -9,12 +9,19 @@ import java.util.List;
 public class ejercicio14PDF {
 
 	public static void main(String[] args) {
+		
 		List<Ciudad> ciudades = leerCiudades("Ficheros//Restaurantes.csv");
 		System.out.println(ciudades);
 		System.out.println();
 		System.out.println("Ordenador por precio Medio de ciudades");
 		Collections.sort(ciudades, new OrdenarPorPrecio());
 		System.out.println(ciudades);
+		System.out.println();
+		System.out.println("Restaurante mas caro: ");
+		System.out.println(buscarRestauranteMasCaro(ciudades));
+		System.out.println();
+		System.out.println("Restaurante mas barato: ");
+		System.out.println(buscarRestauranteMasBarato(ciudades));
 		
 	}
 
@@ -27,7 +34,29 @@ public class ejercicio14PDF {
 		return null;
 	}
 
-	public static void imprimirPrecioMedioCiudades(List<Ciudad> ciudades) {
+
+	public static Restaurante buscarRestauranteMasCaro(List<Ciudad> ciudades) {
+		Restaurante masCaro = null;
+		for(Ciudad c : ciudades) {
+			for(Restaurante r : c.getRestaurantes()) {
+				if(masCaro == null || r.calcularPrecioMedio() > masCaro.calcularPrecioMedio()) {
+					masCaro = r;
+				}
+			}
+		}
+		return masCaro;
+		
+	}
+	public static Restaurante buscarRestauranteMasBarato(List<Ciudad> ciudades) {
+		Restaurante masBarato = null;
+		for(Ciudad c : ciudades) {
+			for(Restaurante r : c.getRestaurantes()) {
+				if(masBarato == null || r.calcularPrecioMedio() < masBarato.calcularPrecioMedio()) {
+					masBarato = r;
+				}
+			}
+		}
+		return masBarato;
 		
 	}
 
